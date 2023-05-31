@@ -1,0 +1,15 @@
+await fetch("https://api.vercel.com/v1/vitals", {
+  "body": {
+    "dsn": "qPgJqYH9LQX5o31Ormk8iWhCxZO",
+    "event_name": "TTFB",
+    "href": "*.vercel.app/blog/my-post",
+    "id": "v2-1653884637156-8014753073557",
+    "page": "/blog/[slug]",
+    "speed": "4g",
+    "value": "60.20000000298023"
+  },
+  "headers": {
+    "Authorization": "Bearer <TOKEN>"
+  },
+  "method": "POST"
+})
