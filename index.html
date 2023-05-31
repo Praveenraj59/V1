@@ -23,7 +23,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-custom" data-offset="100">
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom" data-offset="100" >
     <!-- <div id="loader-wrapper">
         <div id="loader"></div>
         <div class="loader-section section-top"></div>
@@ -37,7 +37,7 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                         <i class="fa fa-2x fa-bars"></i>
                     </button>
-                    <a class="navbar-brand page-scroll" href="http://brittanychiang.com/">
+                    <a class="navbar-brand page-scroll" href="#HOME">
                         <img src="img/logo-transparent-white-30pt.png" />Praveenraj</a>
                 </div>
                 <div class="collapse navbar-collapse navbar-main-collapse">
@@ -73,7 +73,7 @@
                         <div class="col-md-8 col-md-offset-2 wp1">
                             <h2> About Me</h2>
                             <p>
-                                Hey! My name is Praveenraj and I'm a web developer with a passion for front end development and design. I'm currently a third year student at
+                                Hey! My name is Praveenraj and I'm a web developer with a passion for front end development and programming. I'm currently a second year student at
                                 <a href="https://www.rajalakshmi.org/" target="_blank">Rajalakshmi Engineering College</a> pursuing a degree in <a href="#" target="_blank">Artificial IntelligenceMachine learning</a> . I aspire toward a career that will allow me to channel my creativity through crafting beautiful software and engaging experiences.
                                 <br>
                                
@@ -82,28 +82,14 @@
                     </div>
                     
         </section>
-        <!-- /Section: About -->
-        <!-- Section: Resume -->
-        <section id="resume">
-            <div class="text-center">
-                <div class="overlay">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h2>Check out my resume!</h2>
-                                <div id="resume-button">
-                                    <a class="resume-btn wp4" href="resume2016.pdf" target="_blank">Grab A Copy</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- row -->
-                    </div>
-                    <!-- container -->
-                </div>
-            </div>
-        </section>
-        <!-- /Section: Resume -->
+        
         <!-- Section: Services (Passions) -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+
+        <!-- Back to top button --> 
+        <a id="button"></a>
+
         <section id="services" class="text-center">
             <div class="container">
                 <div class="row">
@@ -123,14 +109,34 @@
                         </div>
                         <div class="col-md-4 wp2 delay-05s">
                             <div class="icon"><i class="fa fa-lightbulb-o"></i></div>
-                            <h3>Programmer</h3>
-                            <p>At Northeastern, I'm currently the web chair for <a href="http://nuwit.ccs.neu.edu" target="_blank">nuWiT</a> (NU Women in Tech) as well as a Teaching Assistant for the undergrad HCI course. Previously, I've been involved with the club water polo team, the resident student association, and the ski and snowboard club.</p>
+                            <h3>Programming</h3>
+                            <p> I strive to transform ideas into functional and efficient solutions. With expertise in various programming languages, I develop clean, scalable code for seamless user experiences. I stay updated with the latest technologies to deliver high-quality solutions across different platforms.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        
+        <!-- /Section: About -->
+        <!-- Section: Resume -->
+        <section id="resume">
+            <div class="text-center">
+                <div class="overlay">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h2>Check out my resume!</h2>
+                                <div id="resume-button">
+                                    <a class="resume-btn wp4" href=".pdf" target="_blank">Grab A Copy</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- row -->
+                    </div>
+                    <!-- container -->
+                </div>
+            </div>
+        </section>
+        <!-- /Section: Resume -->
         <!--- Section: Experience 
         <section id="experience">
             <div class="container">
@@ -193,7 +199,7 @@
         <!-- /Section: Experience -->
 
         <!-- Section: Portfolio -->
-        <section id="portfolio">
+        <!---<section id="portfolio">
             <div class="container">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">My Works</h2>
@@ -205,7 +211,7 @@
                             <div class="portfolio-overlay"></div>
                             <div class="links">
                                 <a class="image-link"><i class="fa fa-search-plus"></i></a>
-                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> 
                             </div>
                             <img src="img/CourseSource.png" alt="image">
                             <div class="portfolio-info">
@@ -218,7 +224,7 @@
                             <div class="portfolio-overlay"></div>
                             <div class="links">
                                 <a class="image-link"><i class="fa fa-search-plus"></i></a>
-                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> --
                             </div>
                             <img src="img/feedback-loop.png" alt="image">
                             <div class="portfolio-info">
@@ -231,7 +237,7 @@
                             <div class="portfolio-overlay"></div>
                             <div class="links">
                                 <a class="image-link"><i class="fa fa-search-plus"></i></a>
-                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> --
                             </div>
                             <img src="img/webdev-home.png" alt="image">
                             <div class="portfolio-info">
@@ -244,7 +250,7 @@
                             <div class="portfolio-overlay"></div>
                             <div class="links">
                                 <a class="image-link"><i class="fa fa-search-plus"></i></a>
-                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> ---
                             </div>
                             <img src="img/fontipsums.png" alt="image">
                             <div class="portfolio-info">
@@ -257,7 +263,7 @@
                             <div class="portfolio-overlay"></div>
                             <div class="links">
                                 <a class="image-link"><i class="fa fa-search-plus"></i></a>
-                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> ---
                             </div>
                             <img src="img/nuwit.png" alt="image">
                             <div class="portfolio-info">
@@ -270,7 +276,7 @@
                             <div class="portfolio-overlay"></div>
                             <div class="links">
                                 <a class="image-link"><i class="fa fa-search-plus"></i></a>
-                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> ---
                             </div>
                             <img src="img/onecardforall.png" alt="image">
                             <div class="portfolio-info">
@@ -283,7 +289,7 @@
                             <div class="portfolio-overlay"></div>
                             <div class="links">
                                 <a class="image-link"><i class="fa fa-search-plus"></i></a>
-                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> ---
                             </div>
                             <img src="img/medmil.png" alt="image">
                             <div class="portfolio-info">
@@ -296,7 +302,7 @@
                             <div class="portfolio-overlay"></div>
                             <div class="links">
                                 <a class="image-link"><i class="fa fa-search-plus"></i></a>
-                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> ---
                             </div>
                             <img src="img/humankinda_tumblr.png" alt="image">
                             <div class="portfolio-info">
@@ -309,7 +315,7 @@
                             <div class="portfolio-overlay"></div>
                             <div class="links">
                                 <a class="image-link"><i class="fa fa-search-plus"></i></a>
-                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> ---
                             </div>
                             <img src="img/USC-iphone6s.png" alt="image">
                             <div class="portfolio-info">
@@ -322,7 +328,7 @@
                             <div class="portfolio-overlay"></div>
                             <div class="links">
                                 <a class="image-link"><i class="fa fa-search-plus"></i></a>
-                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> ---
                             </div>
                             <img src="img/lovesac_tumblr.png" alt="image">
                             <div class="portfolio-info">
@@ -335,7 +341,7 @@
                             <div class="portfolio-overlay"></div>
                             <div class="links">
                                 <a class="image-link"><i class="fa fa-search-plus"></i></a>
-                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> ---
                             </div>
                             <img src="img/mullen_com.png" alt="image">
                             <div class="portfolio-info">
@@ -348,7 +354,7 @@
                             <div class="portfolio-overlay"></div>
                             <div class="links">
                                 <a class="image-link"><i class="fa fa-search-plus"></i></a>
-                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> ---
                             </div>
                             <img src="img/bookmarks-site.png" alt="image">
                             <div class="portfolio-info">
@@ -361,7 +367,7 @@
                             <div class="portfolio-overlay"></div>
                             <div class="links">
                                 <a class="image-link"><i class="fa fa-search-plus"></i></a>
-                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> ---
                             </div>
                             <img src="img/calendr.jpg" alt="image">
                             <div class="portfolio-info">
@@ -374,7 +380,7 @@
                             <div class="portfolio-overlay"></div>
                             <div class="links">
                                 <a class="image-link"><i class="fa fa-search-plus"></i></a>
-                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> ---
                             </div>
                             <img src="img/hciwebsite.jpg" alt="image">
                             <div class="portfolio-info">
@@ -387,7 +393,7 @@
                             <div class="portfolio-overlay"></div>
                             <div class="links">
                                 <a class="image-link"><i class="fa fa-search-plus"></i></a>
-                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> -->
+                                <!-- <a href="https://google.com" target="_blank"><i class="fa fa-link"></i></a> ---
                             </div>
                             <img src="img/oblivionthemes.jpg" alt="image">
                             <div class="portfolio-info">
@@ -438,7 +444,7 @@
                         <Br>
                         <p class="modal-description"><strong>Note:</strong> For an optimal experience, use chrome with your sound on</p>
                         <p class="modal-description"><strong>Warning:</strong> Very resource heavy &mdash; efficiency &amp; optimization was definitely not a concern for this project.</p>
-                        <p class="visit"><a href="http://brittanychiang.com/feedback-loop/" target="_blank" id="visit-btn">Visit Site</a> or <a href="https://github.com/bchiang7/feedback-loop" target="_blank" id="visit-btn">View Source</a></p>
+                        <p class="visit"><a href="#feedback-loop/" target="_blank" id="visit-btn">Visit Site</a> or <a href="https://github.com/bchiang7/feedback-loop" target="_blank" id="visit-btn">View Source</a></p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -484,7 +490,7 @@
                             <img class="img-responsive img-centered" src="img/fontipsums.png" alt="">
                         </p>
                         <p class="modal-description">I really enjoy typography and recently became semi-obssessed with discovering new font pairings. I whipped up this simple website to display some of my favorite pairings combined with some fun lorem ipsum variations I found on the web.</p>
-                        <p class="visit"><a href="http://brittanychiang.com/fontipsums/" target="_blank" id="visit-btn">Visit Site</a> or <a href="https://github.com/bchiang7/fontipsums" target="_blank" id="visit-btn">View Source</a></p>
+                        <p class="visit"><a href="#fontipsums/" target="_blank" id="visit-btn">Visit Site</a> or <a href="https://github.com/bchiang7/fontipsums" target="_blank" id="visit-btn">View Source</a></p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -687,7 +693,7 @@
                         <p class="modal-description">One day I realized my bookmarks folder was overflowing and disorganized. So, I decided to make what I had always hoped my bookmarks folder to look like. This site is essentially a visualization of my bookmarks folder, and also a resource for other developers and designers. This site is mainly for my personal reference, but hopefully, other people find it useful.</p>
                         <br>
                         <p class="modal-description"><b>NOTE:</b>&nbsp;&nbsp;Optimized for desktop only.</p>
-                        <p class="visit"><a href="http://brittanychiang.com/bookmarks/" target="_blank" id="visit-btn">Visit Site</a> or <a href="https://github.com/bchiang7/Bookmarks" target="_blank" id="visit-btn">View Source</a></p>
+                        <p class="visit"><a href="#bookmarks/" target="_blank" id="visit-btn">Visit Site</a> or <a href="https://github.com/bchiang7/Bookmarks" target="_blank" id="visit-btn">View Source</a></p>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -797,16 +803,10 @@
                             <li><a id="github" href="https://github.com/bchiang7" target="_blank"><i class="fa fa-github"></i></a></li>
                             <!-- LinkedIn Button -->
                             <li><a id="linkedin" href="https://www.linkedin.com/in/bchiang7" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                        </ul>
-                        <div class="page-scroll">
-                            <a id="to-top" class="page-scroll" href="#page-top">
-                                <img id="rocket" src="img/rocket12.png" />
-                            </a>
-                            <p id="to-top-copy">Beam me up, Scotty!</p>
-                        </div>
+                        </ul><br><br>
                         <div class="copyright">
                             <!-- please don't steal my stuff without permission -->
-                            <p><i class="fa fa-copyright"></i> Praveenraj 2023</p>
+                            <p>Copyrights &nbsp;<i class="fa fa-copyright"></i> 2023&nbsp; . &nbsp;All Rights Reserved</p>
                         </div>
                     </div>
                 </div>
@@ -831,6 +831,22 @@
         //      $(".everything").fadeIn(1000);
         //  });
         // });
+        var btn = $('#button');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+
+
         </script>
        
 </body>
