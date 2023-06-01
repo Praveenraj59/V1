@@ -1526,7 +1526,7 @@ a.resume-btn:active {
     position: absolute;
     bottom: -100%;
     left: 0;
-    background-color: #00009C;
+    background-color: #00000032;
     color: #fff;
     height: 45px;
     width: 100%;
@@ -1755,8 +1755,8 @@ a.resume-btn:active {
 
 #contact #email-button:hover {
     color: #fff;
-    background: #00009C;
-    border: 2px solid #00009C;
+    background: #222;
+    border: 2px solid #00000032;
 }
 
 @media screen and (max-width: 480px) {
@@ -1982,8 +1982,8 @@ ul.social-buttons li a:active {
 
 .modal-body #visit-btn {
     padding: 10px;
-    color: #00009C;
-    border: 2px solid #00009C;
+    color: #222222;
+    border: 2px solid #222222;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
@@ -1995,7 +1995,7 @@ ul.social-buttons li a:active {
 
 .modal-body #visit-btn:hover {
     color: #fff;
-    background-color: #00009C;
+    background-color: #333333;
 }
 
 .modal-description {
